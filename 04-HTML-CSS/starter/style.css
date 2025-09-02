@@ -1,0 +1,40 @@
+/*box model = width, height, padding, margin and border of the page
+select all element on the page "*" */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(253, 255, 183);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  padding: 50px;
+}
+
+h1 {
+  font-size: 40px;
+  padding-bottom: 20px;
+}
+
+h2 {
+  font-size: 30px;
+  margin: 10px;
+  text-align: center;
+}
+
+/*select class and modify it*/
+.first {
+  color: rgb(255, 0, 0);
+}
+
+/*select id and modify it*/
+#your-name {
+  background-color: rgb(234, 241, 110);
+  border: 5px solid chartreuse;
+  width: 400px;
+  padding: 30px;
+  margin-top: 10px;
+  text-align: center;
+}
